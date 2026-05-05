@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ryan Fryman — Integration Services Analyst with 4+ years of enterprise experience. Portfolio of skills, experience, and current work.">
+    <title>Ryan Fryman — IT Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <header class="nav">
+        <div class="nav__inner">
+            <a href="#top" class="nav__logo">RF</a>
+            <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav__menu">
+                <ol>
+                    <li><a href="#about"><span class="num">01.</span> About</a></li>
+                    <li><a href="#education"><span class="num">02.</span> Education</a></li>
+                    <li><a href="#experience"><span class="num">03.</span> Experience</a></li>
+                    <li><a href="#contact"><span class="num">04.</span> Contact</a></li>
+                </ol>
+                <a href="resume.pdf" class="btn" target="_blank" rel="noopener">Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- ============ HERO ============ -->
+        <section class="hero">
+            <p class="hero__intro">Hi, my name is</p>
+            <h1 class="hero__name">Ryan Fryman.</h1>
+            <h2 class="hero__tagline">I keep enterprise data moving.</h2>
+            <p class="hero__bio">
+                I'm an Integration Services Analyst at a Fortune 25 retailer, working on the
+                middleware and file-transfer infrastructure that connects 300+ trading partners
+                and moves 200,000+ files a day. My focus is on reliability, security, and the
+                kind of documentation that keeps a team unstuck at 3 AM.
+            </p>
+            <a href="#experience" class="btn btn--large">See my experience</a>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="section reveal">
+            <h2 class="section__title"><span class="num">01.</span> About Me</h2>
+            <div class="about__grid">
+                <div class="about__text">
+                    <p>
+                        Hello! I'm Ryan, an Integration Services Analyst. I got into tech the
+                        way a lot of us did — through video games. Building my first PC turned
+                        into a curiosity about the systems behind it, which eventually became
+                        a career moving data between enterprise systems instead.
+                    </p>
+                    <p>
+                        Today, my work centers on the systems that move data between organizations
+                        — secure file transfer, certificate management, and the infrastructure that
+                        keeps trading partners connected. I enjoy work where the problems are
+                        concrete, the impact is visible, and the on-call pages eventually stop.
+                    </p>
+                    <p>
+                        Alongside finishing my A.A.S. in Computer Programming, I'm building
+                        deeper knowledge of enterprise integration patterns and healthcare IT
+                        standards (HL7, Epic) — interested in roles where that mix opens doors.
+                    </p>
+                    <p>Here are some of the technologies I work with:</p>
+                    <ul class="skills">
+                        <li>IBM MQ / MQ MFT</li>
+                        <li>IBM DataPower</li>
+                        <li>AS2 / SFTP / HTTPS</li>
+                        <li>SSL/TLS &amp; PGP</li>
+                        <li>EDI</li>
+                        <li>Linux &amp; AIX</li>
+                        <li>Connect:Direct</li>
+                        <li>Microsoft Azure</li>
+                    </ul>
+                </div>
+                <div class="about__image">
+                    <div class="about__image-frame">
+                        <img src="profile.jpg" alt="Ryan Fryman" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EDUCATION ============ -->
+        <section id="education" class="section reveal">
+            <h2 class="section__title"><span class="num">02.</span> Education</h2>
+            <div class="card">
+                <h3>A.A.S., Computer Programming</h3>
+                <p class="card__org">Gateway Community &amp; Technical College · Covington, KY</p>
+                <p class="card__date">Expected May 2026</p>
+                <p>
+                    Coursework spans programming fundamentals, database design, web development,
+                    systems analysis, and Employability Studies — broadening the foundation
+                    underneath my integration work and opening doors into adjacent disciplines.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============ EXPERIENCE ============ -->
+        <section id="experience" class="section reveal">
+            <h2 class="section__title"><span class="num">03.</span> Experience</h2>
+
+            <article class="card">
+                <h3>Integration Services Analyst <span class="card__org">@ Kroger</span></h3>
+                <p class="card__date">Nov 2021 – Present  ·  Blue Ash, OH  ·  Fortune 25 Retailer</p>
+                <ul>
+                    <li>Serve as primary technical contact for 300+ trading partners and internal business teams, owning end-to-end resolution of SSL, network, and system availability incidents from triage through final documentation.</li>
+                    <li>Support integration workflows processing 200,000+ files daily across IBM MQ/MFT, DataPower, and file-transfer platforms in Linux and AIX environments, partnering with infrastructure teams to sustain performance and availability.</li>
+                    <li>Manage the full lifecycle of AS2 partner onboarding within IBM DataPower — including certificate configuration and digital signature setup — translating business requirements into detailed technical specifications.</li>
+                    <li>Participate in rotating primary/backup on-call coverage supporting 24/7 integration platform availability across enterprise file-transfer operations.</li>
+                    <li>Lead testing and validation of integration solutions against SLA standards, coordinating cross-functional teams to ensure accurate, on-time delivery.</li>
+                    <li>Author and maintain technical documentation and process guides that support team knowledge sharing, operational continuity, and new-hire onboarding.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section id="contact" class="section reveal contact">
+            <p class="contact__pre"><span class="num">04.</span> What's Next?</p>
+            <h2 class="contact__title">Get In Touch</h2>
+            <p class="contact__body">
+                I'm currently exploring opportunities in middleware, enterprise integration,
+                and healthcare IT. Whether you have a question, an opening, or just want to
+                say hi — my inbox is open. I'll do my best to get back to you.
+            </p>
+            <a href="mailto:ryanfryman@gmail.com" class="btn btn--large">Say Hello</a>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <ul class="footer__social">
+            <li><a href="mailto:ryanfryman@gmail.com">Email</a></li>
+        </ul>
+        <p class="footer__credit">Built by Ryan Fryman</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
